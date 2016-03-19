@@ -12,7 +12,6 @@
 		B002B86D1BAE420500C744AF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B002B86C1BAE420500C744AF /* ViewController.m */; };
 		B002B8701BAE420500C744AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B002B86E1BAE420500C744AF /* Main.storyboard */; };
 		B002B8721BAE420500C744AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B002B8711BAE420500C744AF /* Assets.xcassets */; };
-		B0F6B4621BAEBF9900E2F26B /* README.mdown in Sources */ = {isa = PBXBuildFile; fileRef = B0F6B4611BAEBF9900E2F26B /* README.mdown */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -110,6 +109,7 @@
 				TargetAttributes = {
 					B002B8611BAE420500C744AF = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 8C7439RJLG;
 					};
 				};
 			};
@@ -150,7 +150,6 @@
 			files = (
 				B002B86D1BAE420500C744AF /* ViewController.m in Sources */,
 				B002B86A1BAE420500C744AF /* AppDelegate.m in Sources */,
-				B0F6B4621BAEBF9900E2F26B /* README.mdown in Sources */,
 				B002B8671BAE420500C744AF /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,7 +258,7 @@
 				FRAMEWORK_SEARCH_PATHS = "/System/Library/PrivateFrameworks/**";
 				INFOPLIST_FILE = Browser/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.highcaffeinecontent.Browser;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.guilhermerambo.TVBrowser;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -270,12 +269,13 @@
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: GUILHERME RAMBO (8C7439RJLG)";
 				FRAMEWORK_SEARCH_PATHS = "/System/Library/PrivateFrameworks/**";
 				INFOPLIST_FILE = Browser/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.highcaffeinecontent.Browser;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.guilhermerambo.TVBrowser;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "facd56d1-df24-40fe-a7b8-d1216bed609d";
 			};
 			name = Release;
 		};
